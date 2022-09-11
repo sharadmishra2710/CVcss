@@ -1,0 +1,176 @@
+/* ----------------------------------------TAG SELECTORS ----------------- */
+  body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    color:white;
+  }
+  div{
+    margin: 0;
+  }
+  h1{
+    margin: 0 auto;
+    padding: 150px 0 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.65rem;
+    color:#745739;
+    /* 16px 100% 1em*/
+  }
+  h2,h3{
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-top: 0;
+  }
+  p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+  }
+  hr{
+    border: dotted 8px lightgrey;
+    border-bottom: none;
+    width: 5%;
+   }
+/* ----------------------------------------CLASS SELECTORS ----------------- */
+.sidebar{
+  padding: 40px auto;
+  position: fixed;
+  font-size: 1.1rem;
+  right:10px;
+  top:100px;
+  width:7%;
+  background-color: rgba(64,108,115,0.7);
+  border-radius: 20px 20px 20px 20px;
+}
+.sidebar-text{
+  padding: 50px 0px;
+}
+.sidebar-text a{
+  color: white;
+  text-decoration: none;
+}
+.sidebar-text a:hover{
+  color: #C3F700;
+  text-decoration: underline;
+  font-style: bold;
+}
+.intro{
+  width: 50%;
+  margin: auto;
+}
+.skills{
+  padding: 30px 0px;
+}
+.sharad-pic{
+  height: 366px;
+  width: 353px;
+}
+.top{
+  background-color:#6BB5C0;
+  height: 750px;
+}
+.middle{
+  color: black;
+}
+.middle h3{
+  color: #6BB5C0;
+  font-weight: bold;
+}
+.down{
+    background-color:#6BB5C0;
+    padding: 30px 0px;
+}
+.down a {
+  color: white;
+  margin:0px 25px;
+  text-decoration: none;
+}
+
+.down a:hover {
+  color: #C3F700;
+  text-decoration: underline;
+}
+.image-cloud1{
+  position: absolute;
+  left: 300px;
+  top: 350px;
+}
+.image-cloud2{
+  position: absolute;
+  top: 75px;
+  right: 300px;
+}
+.skill-row{
+  margin: 25px auto;
+  padding-bottom: 16px;
+  width: 50%;
+  text-align: left;
+}
+.skill-pic-left{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-pic-right{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-desc-left{
+  clear: left;
+}
+.skill-desc-right{
+  clear: right;
+}
+.contact-me{
+  margin: 50px auto 25px;
+}
+.contact-me p{
+  width: 50%;
+  margin-bottom: 50px;
+}
+.button-final{
+  font-size: 2rem;
+  color:white;
+  height:185px;
+  width:100%;
+  background-color: #6BB5C0;
+  border-radius: 89px;
+}
+.button-final:hover{
+  font-size: 2.5rem;
+  color:white;
+  height:185px;
+  width:100%;
+  background-color: #C3F700;
+  border-radius: 90px;
+}
+
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+/* ----------------------------------------ID SELECTORS ----------------- */
